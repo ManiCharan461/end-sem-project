@@ -1,0 +1,32 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #aaa;
+}
+
+.card img {
+  width: 200px;
+  height: 130px;
+  object-fit: cover;
+}
+
+button {
+  background: orange;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
